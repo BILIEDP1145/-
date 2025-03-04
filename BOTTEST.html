@@ -58,7 +58,7 @@
         <div class="verification-box">
             <div class="slider" id="slider"></div>
         </div>
-        <p class="success-message" id="successMessage">验证成功！正在跳转...</p>
+        <p class="success-message" id="successMessage">验证成功！正在排队...</p>
     </div>
 
     <script>
@@ -85,7 +85,7 @@
                     isVerified = true;
                     successMessage.style.display = 'block';
                     setTimeout(() => {
-                        window.location.href = 'https://www.millenniumic.cn/home'; // 验证成功后跳转的网页
+                        window.location.href = 'https://www.millenniumic.cn/ver0.3'; // 验证成功后跳转的网页
                     }, 2000);
                 }
             }
